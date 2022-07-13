@@ -53,5 +53,6 @@ fn main() {
     }
     println!("Succeded to generate passwords");
     exit(0x1);
+    //git test
 }
 

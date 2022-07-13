@@ -26,7 +26,7 @@ struct Args {
 
 fn main() {
     std::process::Command::new("clear").status();
-    //let args: Vec<String> = env::args().collect();
+
     let arg = Args::parse();
 
     let x = ["1", "&2", "3", "4", "5", "6", "7", "8", "9", "10", "a", "b", "C", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "u", "q", "w" ,"v","p","x","y","z", "!", "@", "#" ,"$" ,"%" ,"^"  ,"&" ,"*" ,"(" ,")" ,"-" ,"[", "]" ];
@@ -61,7 +61,6 @@ fn main() {
     {
         println!("{:?}", _w);
         f.write(_w.as_bytes());  
-        //f.flush();  
         f.write(b"\n");
     
     }

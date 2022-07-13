@@ -1,1 +1,7 @@
 Simple password generator writen in rust to study how to program
+How to use that
+run program with arguments:
+--path {give the program path}
+--lenght {give the program how long may be your password}
+--size {how many passwords you wanna to generate}
+
